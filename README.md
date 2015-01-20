@@ -18,4 +18,5 @@
     - .tmux.conf 里加入set -g default-terminal "screen-256color"
     - .bashrc或者.bash_profile 里面加上export TERM=xterm-256color
     
-
+5. 参考
+    - https://github.com/luofei614/vim-plug 的vundle版，去掉了一些键位映射，替换和去掉了部分插件。（详见配置文件）
