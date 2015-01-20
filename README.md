@@ -5,9 +5,10 @@
 1. 安装Vundle
     - git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-2. 配置.vimrc
+2. 配置vim
     - git clone https://github.com/tinykuai/ngx_vim_config
     - ln -sf ngx_vim_config/vimrc ~/.vimrc
+    - ln -sf ngx_vim_config/extend ~/.vim/extend
 
 3. 安装插件
     - 打开vim
