@@ -13,7 +13,7 @@ ln -sf ngx_vim_config/vimrc ~/.vimrc
     - 打开vim
     - :PluginInstall
 
-4. 在tmux中vim主题配色不对( [原文]hhexample](http://blog.theerrorlog.com/when-tmux-runs-under-8-colors-mode.html "当tmux以8色模式运行……") )
+4. 在tmux中vim主题配色不对( [原文](http://blog.theerrorlog.com/when-tmux-runs-under-8-colors-mode.html "当tmux以8色模式运行……") )
     - .tmux.conf 里加入set -g default-terminal "screen-256color"
     - .bashrc或者.bash_profile 里面加上export TERM=xterm-256color
     
