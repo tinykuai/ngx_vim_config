@@ -1,3 +1,20 @@
 # ngx_vim_config
-1. 基于vundle插件管理的.vimrc配置文件
-2. php,js,html开发
+
+基于Vundle插件管理的vim配置文件
+
+1. 安装Vundle：
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+2. 配置.vimrc
+git clone https://github.com/tinykuai/ngx_vim_config
+ln -sf ngx_vim_config/vimrc ~/.vimrc
+
+3. 安装插件
+    - 打开vim
+    - :PluginInstall
+
+4. 在tmux中vim主题配色不对( [原文]hhexample](http://blog.theerrorlog.com/when-tmux-runs-under-8-colors-mode.html "当tmux以8色模式运行……") )
+    - .tmux.conf 里加入set -g default-terminal "screen-256color"
+    - .bashrc或者.bash_profile 里面加上export TERM=xterm-256color
+    
+
