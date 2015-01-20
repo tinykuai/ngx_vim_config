@@ -6,8 +6,7 @@
     - git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 2. 配置vim (采取了软连的方式，也可以采取文件覆盖的方式)
-    - cd
-    - git clone https://github.com/tinykuai/ngx_vim_config
+    - git clone https://github.com/tinykuai/ngx_vim_config ~/ngx_vim_config
     - ln -sf ~/ngx_vim_config/vimrc ~/.vimrc
     - ln -sf ~/ngx_vim_config/extend ~/.vim/extend
 
