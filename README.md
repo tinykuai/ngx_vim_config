@@ -2,12 +2,12 @@
 
 基于Vundle插件管理的vim配置文件
 
-1. 安装Vundle：
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+1. 安装Vundle
+    - git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 2. 配置.vimrc
-git clone https://github.com/tinykuai/ngx_vim_config
-ln -sf ngx_vim_config/vimrc ~/.vimrc
+    - git clone https://github.com/tinykuai/ngx_vim_config
+    - ln -sf ngx_vim_config/vimrc ~/.vimrc
 
 3. 安装插件
     - 打开vim
