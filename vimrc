@@ -158,12 +158,33 @@ set shiftwidth=4
 " 让 vim 把连续数量的空格视为一个制表符
 set softtabstop=4
 
-set encoding=utf-8
-set fileencoding=utf-8
-set fileencodings=ucs-bom,utf-8,chinese
-set ambiwidth=double
 "自动换行
 set wrap 
 "设置无备份
 set nobackup
 set nowritebackup
+
+"关闭光标闪动
+set gcr=a:blinkon0
+
+"====================================================
+"（1）linux下使用的文件编码设置
+set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=ucs-bom,utf-8,chinese
+set ambiwidth=double
+
+"===================================================
+"(1) or (2)
+"===================================================
+"（2）windows下gvim中设置文件编码以及解决乱码的设置
+"set encoding=utf-8
+"set termencoding=utf-8
+"set fileencoding=utf-8
+"set fileencodings=ucs-bom,utf-8,chinese,cp936
+"vim的菜单乱码解决：
+"同样在 _vimrc文件里以上的中文设置后加上下列命令，
+"source $VIMRUNTIME/delmenu.vim
+"source $VIMRUNTIME/menu.vim
+"vim提示信息乱码的解决
+"language messages zh_CN.utf-8
